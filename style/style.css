@@ -1,0 +1,6 @@
+/* MOBILE FIRST LAYOUT */
+/* This CSS assumes a single column mobile layout at the default and uses media queries to create the desktop page */
+
+footer p {
+    color: lightgrey;
+}

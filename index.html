@@ -11,48 +11,80 @@
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://elmwood.store">
     <meta property="og:image" content="https://elmwood.store/images/elmwood-logo-upscaled">
+
+    <meta name="geo.region" content="US-MA" />
+    <meta name="geo.placename" content="Malden" />
+    <meta name="geo.position" content="42.427358;-71.075285" />
+    <meta name="ICBM" content="42.427358, -71.075285" />
+
     
     <title>The Elmwood Grille and Market</title>
 
+
     <link rel="icon" href="images/favicon.ico" type="image/ico">
     
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="style/bootstrap.min.css">
+    <link rel="stylesheet" href="style/style.css">
+
 
 </head>
 
 <body>
     <header>
 
+        <!-- CSS based nav hamburger -->
+        <input type="checkbox" id="nav-checkbox">
+        <label for="nav-checkbox" class="menu-button">
+            <!-- MENU -->
+            <img src="images/Hamburger_icon.png" class="hamburger">
+        </label>
+
         <h1>The Elmwood</h1>
         <h2>Grille and Market</h2>
 
+        <!-- I want users to be able to click this phone number on mobile and automatically open up the phone app ready to call this number -->
         <p id="phone-number">
-            
+            <a href="tel:+17813225417">781-322-5417</a>
         </p>
+        
+        <!-- I want users to be able to click this address on mobile and open Google maps with this address already plugged in... possible? -->
         <p id="address">
-            299 Pleasant Street
-            <br>
-            Malden, MA
-            <br>
-            01248
+            <a>
+                299 Pleasant Street
+                <br>
+                Malden, MA 02148
+            </a>
         </p>
 
         <nav>
+            <div class="logo">
+                <p>The Elmwood <br>Grille and Market</p>
+            </div>
             <li>
-                <ul>Menu</ul>
-                <ul>About</ul>
-                <ul>Contact</ul>
+                <ul><a href="#">Menu</a></ul>
+                <ul><a href="#">About</a></ul>
+                <ul><a href="#">Contact</a></ul>
             </li>
         </nav>
+
+
+
     </header>
 
     <main>
-        <section class="menu">
+        <section>
             <h2>MENU</h2>
+            <img src="images/elmwood-inside.jpg">
         </section>
 
-        <section class="about">
+        <section>
+            <h2>ABOUT</h2>
+            <img src="images/elmwood-gang-bad-quality-image.jpg">
+        </section>
 
+        <section>
+            <h2>CONTACT</h2>
+            <img src="images/elmwood-old.jpg">
         </section>
     </main>
 
@@ -61,6 +93,8 @@
             &copy; Felicia Heitin LaFauci - all rights reserved
         </p>
     </footer>
+
+    <script src="js/bootstrap.min.js"></script>
 
 </body>
 

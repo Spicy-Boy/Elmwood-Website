@@ -29,12 +29,15 @@ body {
     , url("../images/elmwood-pharmacy-120x.jpg") center;
     
     color: white;
-    text-shadow: 2px 4px black;
+    text-shadow: 2px 3px black;
 }
 #phone-number a {
     text-decoration: none;
     color: white;
     text-decoration: underline;
+}
+#address {
+    font-size: 1.2em;
 }
 
 #nav-checkbox {
@@ -103,6 +106,10 @@ main {
     margin-top: 15px;
 
     /* padding: 0 15px 0 15px; */
+}
+
+main a {
+    text-decoration: none;
 }
 
 main section {

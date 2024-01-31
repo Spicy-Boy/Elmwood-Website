@@ -3,6 +3,9 @@
 
 /* DEBUG Borders */
 
+body {
+    background-image: url("../images/brick-tiles.jpg");
+}
 
 .menu-button {
     position: fixed;
@@ -15,6 +18,25 @@
     cursor: pointer;
     user-select: none;
 }
+
+.wrapper-header {
+    background-image: url("../images/elmwood-pharmacy.jpg");
+    background-size: cover;
+    background-position: center;
+    
+    /* background-image: url("../images/elmwood-pharmacy.jpg"); */
+    background: linear-gradient(rgba(0, 0, 0, 0.726), rgba(0, 0, 0, 0.247))
+    , url("../images/elmwood-pharmacy-120x.jpg") center;
+    
+    color: white;
+    text-shadow: 2px 4px black;
+}
+#phone-number a {
+    text-decoration: none;
+    color: white;
+    text-decoration: underline;
+}
+
 #nav-checkbox {
 	position: fixed;
 	/* left: 50%; */
@@ -89,6 +111,9 @@ main section {
     padding-right: 25px;
 
     padding-bottom: 5px;
+
+    /* drop shadow on section */
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.1);
 }
 section img {
     max-width: 100%;
@@ -107,6 +132,7 @@ main h2 {
 
 footer p {
 
-    color: rgb(128, 128, 128);
+    color: white;
+    background-color: rgba(0, 0, 0, 0.76);
     text-align: center;
 }

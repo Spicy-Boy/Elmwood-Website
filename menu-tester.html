@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu Tester</title>
+
+    <style>
+        body {
+            background-color: rgb(209, 176, 94);
+        }
+        h1 {
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <h1>hello!</h1>
+
+    <script src="js/menu.js"></script>
+    <script>
+        // let breakfast = arrayBreakfast;
+        // console.log(breakfast);
+
+        for (const key in arrayBreakfast) {
+            const breakfastItem = arrayBreakfast[key];
+
+            console.log("Name:", breakfastItem.name);
+            console.log("Price:", breakfastItem.price);
+            console.log("Description:", breakfastItem.description);
+            console.log("Tags:", breakfastItem.tags);
+            console.log("-------------------");
+        }
+    </script>
+</body>
+</html>

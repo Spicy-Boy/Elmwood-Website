@@ -35,9 +35,11 @@ body {
     text-decoration: none;
     color: white;
     text-decoration: underline;
+    background-color: rgba(0, 0, 0, 0.295);
 }
 #address {
     font-size: 1.2em;
+    background-color: rgba(0, 0, 0, 0.295);
 }
 
 #nav-checkbox {
@@ -92,6 +94,7 @@ nav li {
     text-decoration: none;
     width: 100%;
 }
+
 nav ul {
     width: 100%;
     padding-left: 0;
@@ -142,4 +145,8 @@ footer p {
     color: white;
     background-color: rgba(0, 0, 0, 0.76);
     text-align: center;
+}
+
+@media (min-width: 1200px) {
+    
 }

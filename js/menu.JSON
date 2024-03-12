@@ -1,5 +1,5 @@
 {
-    "arrayBreakfast": {
+    "breakfast": {
 
         "sectionDescription": "",
         "array": [
@@ -16,36 +16,37 @@
             {
                 "egg1x_toast": {
                     "name": "1 Egg any style w/ Toast",
-                    "price": "5.95",
+                    "price": 5.95,
                     "description": "",
                     "altDescription": "Add bacon, sausage, or ham",
-                    "altPrice": "7.95",
+                    "altPrice": 7.95,
                     "tags": "eggs, toast"
                 }
             },
             {
                 "egg2x_toast": {
                     "name": "2 Eggs any style w/ Toast",
-                    "price": "6.95",
-                    "description": "Add bacon, sausage, or ham",
-                    "altPrice": "8.95",
+                    "price": 6.95,
+                    "description": "",
+                    "altDescription": "Add bacon, sausage, or ham",
+                    "altPrice": 8.95,
                     "tags": "eggs, toast"
                 }
             },
             {
                 "famousBreakfastSandwich": {
                     "name": "Our Famous Breakfast Sandwich",
-                    "price": "5.85",
+                    "price": 5.85,
                     "description": "1 egg any style on your choice of bread, bagel, english muffin, or bulkie roll with cheese. Don't forget the meat: bacon, ham, or sausage",
                     "altDescription": "Make it meatless",
-                    "altPrice": "4.45",
+                    "altPrice": 4.45,
                     "tags": "eggs, sandwich"
                 }
             },
             {
                 "steakEggCheeseSandwich": {
                     "name": "Steak Egg & Cheese Sandwich",
-                    "price": "7.99",
+                    "price": 7.99,
                     "description": "Another of our great yummy sandwiches on your choice of bread, cheese, and veggies",
                     "altDescription": "",
                     "altPrice": "",
@@ -55,7 +56,7 @@
             {
                 "hash_eggs": {
                     "name": "Hash and Eggs",
-                    "price": "9.95",
+                    "price": 9.95,
                     "description": "Corned beef hash with 2 eggs any style. Toast and home fries included",
                     "altDescription": "",
                     "altPrice": "",
@@ -65,7 +66,7 @@
             {
                 "frenchToast": {
                     "name": "French Toast",
-                    "price": "11.99",
+                    "price": 11.99,
                     "description": "Made with 3 slices of thick Texas toast with bacon, sausage, or ham. Don't forget powdered sugar!",
                     "altDescription": "",
                     "altPrice": "",
@@ -75,7 +76,7 @@
             {
                 "pancakes": {
                     "name": "Pancakes",
-                    "price": "11.99",
+                    "price": 11.99,
                     "description": "3 buttery pancakes topped with whipped cream and chocolate chips. Includes bacon, sausage, or ham and home fries",
                     "altDescription": "",
                     "altPrice": "",
@@ -85,7 +86,7 @@
             {
                 "bigBoyBreakfast": {
                     "name": "Big Boy Breakfast",
-                    "price": "13.99",
+                    "price": 13.99,
                     "description": "3 eggs any style with 2 slices of bacon, 2 sausage, and either 2 slices french toast or 2 pancakes",
                     "altDescription": "",
                     "altPrice": "",
@@ -95,7 +96,7 @@
             {
                 "breakfastBurrito": {
                     "name": "Breakfast Burrito",
-                    "price": "12.50",
+                    "price": 12.50,
                     "description": "3 eggs, choice of bacon, sausage, or ham, sour cream, jack cheese, and home fries all rolled up",
                     "altDescription": "",
                     "altPrice": "",
@@ -104,5 +105,240 @@
             }
         ]
     },
-    "arrayMenu": {}
+    "breakfastSides": {
+        "sectionDescription": "",
+        "array": [
+            {
+                "bagel": {
+                    "name": "Bagel",
+                    "price": 2.49,
+                    "description": "Choice of plain, onion, everything, and cinnamon raisin",
+                    "altDescription": "Comes with cream cheese",
+                    "altPrice": "",
+                    "tags": "bagel, cream cheese"
+                }
+            },
+            {
+                "toast": {
+                    "name": "Toast",
+                    "price": 1.99,
+                    "description": "2 slices of white or wheat",
+                    "altDescription": "",
+                    "altPrice": "",
+                    "tags": "toast"
+                }
+            },
+            {
+                "raisinTexasTwelveGrainToast": {
+                    "name": "Raisin, Texas, or 12 Grain Toast",
+                    "price": 2.49,
+                    "description": "2 slices of your choice toast",
+                    "altDescription": "",
+                    "altPrice": "",
+                    "tags": "toast"
+                }
+            },
+            {
+                "englishMuffin": {
+                    "name": "English Muffin",
+                    "price": 2.89,
+                    "description": "Toasted or grilled",
+                    "altDescription": "",
+                    "altPrice": "",
+                    "tags": ""
+                }
+            },
+            {
+                "hashbrownPatties": {
+                    "name": "Hashbrown Patties",
+                    "price": 2.10,
+                    "description": "2 patties",
+                    "altDescription": "",
+                    "altPrice": "",
+                    "tags": "hashbrown"
+                }
+            },
+            {
+                "homeFries": {
+                    "name": "Home Fries",
+                    "price": 4.25,
+                    "description": "Diced potatoes with seasoning",
+                    "altDescription": "",
+                    "altPrice": "",
+                    "tags": "home fries"
+                }
+            },
+            {
+                "loadedHomeFries": {
+                    "name": "Loaded Home Fries",
+                    "price": 6.99,
+                    "description": "Smothered in cheese and bacon",
+                    "altDescription": "",
+                    "altPrice": "",
+                    "tags": "home fries, cheese, bacon"
+                }
+            },
+            {
+                "bacon": {
+                    "name": "Bacon",
+                    "price": 4.59,
+                    "description": "4 thick strips of bacon from the grill",
+                    "altDescription": "Turkey bacon available",
+                    "altPrice": "",
+                    "tags": "bacon"
+                }
+            },
+            {
+                "sausage": {
+                    "name": "sausage",
+                    "price": 4.59,
+                    "description": "2 sausage patties",
+                    "altDescription": "Turkey sausage or links also available",
+                    "altPrice": "",
+                    "tags": "sausage"
+                }
+            },
+            {
+                "cornedBeefHash": {
+                    "name": "Corned Beef Hash",
+                    "price": 4.59,
+                    "description": "Homemade!",
+                    "altDescription": "",
+                    "altPrice": "",
+                    "tags": "hash, steak"
+                }
+            }
+        ]
+    },
+    "omelettes": {
+        "description": "All omelettes served w/ Toast and Homefries",
+        "array": [
+            {
+                "threeEggOmelette": {
+                    "name": "3 Egg Omelette",
+                    "price": 7.99,
+                    "description": "Plain omelette with toast and home fries",
+                    "altDescription": "",
+                    "altPrice": "",
+                    "tags": "eggs, omelette, toast, home fries"
+                }
+            },
+            {
+                "veggieOmelette": {
+                    "name": "Veggie Omelette",
+                    "price": 11.99,
+                    "description": "Onion, pepper, mushrooms, spinach, tomatoes, and cheese",
+                    "altDescription": "",
+                    "altPrice": "",
+                    "tags": "eggs, omelette, vegetables, toast, home fries"
+                }
+            },
+            {
+                "westernOmelette": {
+                    "name": "Western Omelette",
+                    "price": 13.99,
+                    "description": "Ham, peppers, and onions- spicy!",
+                    "altDescription": "",
+                    "altPrice": "",
+                    "tags": "eggs, omelette, ham, vegetables, toast, home fries"
+                }
+            },
+            {
+                "greekOmelette": {
+                    "name": "Greek Omelette",
+                    "price": 12.99,
+                    "description": "Feta cheese, calamata olives, and tomatoes",
+                    "altDescription": "",
+                    "altPrice": "",
+                    "tags": "eggs, omelette, cheese, toast, home fries"
+                }
+            },
+            {
+                "buildYourOwnOmelette": {
+                    "name": "Build-Your-Own-Omelette",
+                    "price": "11.99",
+                    "description": "A three egg omelette with your choice of meat and veggies",
+                    "altDescription": "",
+                    "altPrice": "",
+                    "tags": "eggs, omelette, cheese, meat, vegetables, toast, home fries"
+                }
+            }
+        ]
+    },
+    "Sandwiches": {
+        "description": "Served on any style bread or bulkie roll",
+        "array": [
+            {
+                "tunaSalad": {
+                    "name": "Tuna Salad",
+                    "price": 6.99,
+                    "description": "",
+                    "altDescription": "",
+                    "altPrice": "",
+                    "tags": "sandwich, tuna"
+                }
+            },
+            {
+                "tunaMelt": {
+                    "name": "Tuna Melt",
+                    "price": 7.59,
+                    "description": "A heaping of fresh tuna and cheese grilled to perfection on texas toast",
+                    "altDescription": "",
+                    "altPrice": "",
+                    "tags": "sandwich, tuna, cheese"
+                }
+            },
+            {
+                "chickenSalad": {
+                    "name": "Chicken Salad",
+                    "price": 7.59,
+                    "description": "White meat chicken made in-house",
+                    "altDescription": "",
+                    "altPrice": "",
+                    "tags": "sandwich, chicken"
+                }
+            },
+            {
+                "hamAndCheese": {
+                    "name": "Old School Ham and Cheese",
+                    "price": 6.99,
+                    "description": "Fresh ham piled high on bread",
+                    "altDescription": "",
+                    "altPrice": "",
+                    "tags": "sandwich, ham, cheese"
+                }
+            },
+            {
+                "famousBLT": {
+                    "name": "Our Famous BLT",
+                    "price": 6.99,
+                    "description": "Lettuce, tomato, and a boatload of bacon",
+                    "altDescription": "",
+                    "altPrice": "",
+                    "tags": "sandwich, bacon, vegetables"
+                }
+            },
+            {
+                "grilledCheese_texas": {
+                    "name": "Grilled Cheese on Texas Toast",
+                    "price": "",
+                    "description": "",
+                    "altDescription": "Add bacon",
+                    "altPrice": "9.99",
+                    "tags": "sandwich, cheese, bacon"
+                }
+            },
+            {
+                "seafoodSalad": {
+                    "name": "Seafood Salad",
+                    "price": 5.99,
+                    "description": "Sam's own recipe on your choice of bread",
+                    "altDescription": "",
+                    "altPrice": "",
+                    "tags": "sandwich, seafood"
+                }
+            }
+        ]
+    }
+
 }

@@ -1,0 +1,89 @@
+{
+    let arrayBreakfast = {
+        templateKey: {
+            name: "",
+            price: "",
+            description: "",
+            altDescription: "",
+            altPrice: "",
+            tags: ""
+        },
+        egg1x_toast: {
+            name: "1 Egg any style w/ Toast",
+            price: "5.95",
+            description: "",
+            altDescription: "Add bacon, sausage, or ham",
+            altPrice: "7.95",
+            tags: "eggs, toast"
+        },
+        egg2x_toast: {
+            name: "2 Eggs any style w/ Toast",
+            price: "6.95",
+            description: "",
+            altDescription: "Add bacon, sausage, or ham",
+            altPrice: "8.95",
+            tags: "eggs, toast"
+        },
+        famousBreakfastSandwich: {
+            name: "Our Famous Breakfast Sandwich",
+            price: "5.85",
+            description: "1 egg any style on your choice of bread, bagel, english muffin, or bulkie roll with cheese. Don't forget the meat: bacon, ham, or sausage",
+            altDescription: "Make it meatless",
+            altPrice: "4.45",
+            tags: "eggs, sandwich"
+        },
+        steakEggCheeseSandwich: {
+            name: "Steak Egg & Cheese Sandwich",
+            price: "7.99",
+            description: "Another of our great yummy sandwiches on your choice of bread, cheese, and veggies",
+            altDescription: "",
+            altPrice: "",
+            tags: "eggs, steak, sandwich"
+        },
+        hash_eggs: {
+            name: "Hash and Eggs",
+            price: "9.95",
+            description: "Corned beef hash with 2 eggs any style. Toast and home fries included",
+            altDescription: "",
+            altPrice: "",
+            tags: "eggs, hash, toast, home fries"
+        },
+        frenchToast: {
+            name: "French Toast",
+            price: "11.99",
+            description: "Made with 3 slices of thick Texas toast with bacon, sausage, or ham. Don't forget powdered sugar!",
+            altDescription: "",
+            altPrice: "",
+            tags: "toast, meat"
+        },
+        pancakes: {
+            name: "Pancakes",
+            price: "11.99",
+            description: "3 buttery pancakes topped with whipped cream and chocolate chips. Includes bacon, sausage, or ham and home fries",
+            altDescription: "",
+            altPrice: "",
+            tags: "pancakes, home fries"
+        },
+        bigBoyBreakfast: {
+            name: "Big Boy Breakfast",
+            price: "13.99",
+            description: "3 eggs any style with 2 slices of bacon, 2 sausage, and either 2 slices french toast or 2 pancakes",
+            altDescription: "",
+            altPrice: "",
+            tags: "eggs, pancakes, french toast, meat"
+        },
+        breakfastBurrito: {
+            name: "Breakfast Burrito",
+            price: "12.50",
+            description: "3 eggs, choice of bacon, sausage, or ham, sourcream, jack cheese, and home fries all rolled up",
+            altDescription: "",
+            altPrice: "",
+            tags: "eggs, burrito, meat, cheese, home fries"
+        },
+        
+    }
+    let arrayMenu = {
+
+
+    }
+}

@@ -1,6 +1,5 @@
 {
     "breakfast": {
-
         "sectionDescription": "",
         "array": [
             {
@@ -211,7 +210,7 @@
         ]
     },
     "omelettes": {
-        "description": "All omelettes served w/ Toast and Homefries",
+        "sectionDescription": "All omelettes served w/ Toast and Homefries",
         "array": [
             {
                 "threeEggOmelette": {
@@ -265,8 +264,8 @@
             }
         ]
     },
-    "Sandwiches": {
-        "description": "Served on any style bread or bulkie roll",
+    "sandwiches": {
+        "sectionDescription": "Served on any style bread or bulkie roll",
         "array": [
             {
                 "tunaSalad": {
@@ -339,6 +338,182 @@
                 }
             }
         ]
+    },
+    "subsAndWraps": {
+        "sectionDescription": "Any sub can be made into a wrap, ask server",
+        "array": [
+            {
+                "meatballSub": {
+                    "name": "Meatball Sub",
+                    "price": 9.99,
+                    "description": "",
+                    "altDescription": "",
+                    "altPrice": 11.99,
+                    "tags": "sandwich, sub, meatballs, cheese"
+                }
+            },
+            {
+                "italianSub": {
+                    "name": "Italian Sub",
+                    "price": 9.95,
+                    "description": "",
+                    "altDescription": "",
+                    "altPrice": 12.25,
+                    "tags": "sandwich, sub, cold cuts, cheese"
+                }
+            },
+            {
+                "turkeySub": {
+                    "name": "Turkey Sub",
+                    "price": 9.99,
+                    "description": "",
+                    "altDescription": "",
+                    "altPrice": 12.25,
+                    "tags": "sandwich, sub, turkey, cheese"
+                }
+            },
+            {
+                "cheeseBurgerSub": {
+                    "name": "Cheeseburger Sub",
+                    "price": 8.99,
+                    "description": "",
+                    "altDescription": "",
+                    "altPrice": 11.99,
+                    "tags": "sandwich, sub, steak, cheese, burger"
+                }
+            },
+            {
+                "chickenFingerSub": {
+                    "name": "Chicken Finger Sub",
+                    "price": 9.99,
+                    "description": "",
+                    "altDescription": "",
+                    "altPrice": 11.99,
+                    "tags": "sandwich, sub, chicken"
+                }
+            },
+            {
+                "buffaloChickenSub": {
+                    "name": "Buffalo Chicken Sub",
+                    "price": 9.99,
+                    "description": "",
+                    "altDescription": "",
+                    "altPrice": 12.99,
+                    "tags": "sandwich, sub, chicken, buffalo"
+                }
+            },
+            {
+                "veggieSub": {
+                    "name": "Veggie Sub",
+                    "price": 7.99,
+                    "description": "",
+                    "altDescription": "",
+                    "altPrice": 10.99,
+                    "tags": "sandwich, sub, vegetables"
+                }
+            },
+            {
+                "steakAndCheeseSub": {
+                    "name": "Steak and Cheese Sub",
+                    "price": 10.99,
+                    "description": "",
+                    "altDescription": "",
+                    "altPrice": 12.99,
+                    "tags": "sandwich, sub, steak, cheese"
+                }
+            },
+            {
+                "steakAndEggSub": {
+                    "name": "Steak and Egg Sub",
+                    "price": 11.99,
+                    "description": "",
+                    "altDescription": "",
+                    "altPrice": 13.99,
+                    "tags": "sandwich, sub, steak, cheese, eggs"
+                }
+            },
+            {
+                "steakBomb": {
+                    "name": "Ultimate Steak Bomb",
+                    "price": 11.99,
+                    "description": "Salami, onions, mushrooms, and peppers",
+                    "altDescription": "",
+                    "altPrice": 13.99,
+                    "tags": "sandwich, sub, steak, cheese, vegetables, cold cuts"
+                }
+            },
+            {
+                "chickenBomb": {
+                    "name": "Chicken Bomb",
+                    "price": 11.49,
+                    "description": "",
+                    "altDescription": "",
+                    "altPrice": 13.99,
+                    "tags": "sandwich, sub, chicken, cheese"
+                }
+            },
+            {
+                "chickenParmesan": {
+                    "name": "Chicken Parmesan",
+                    "price": 10.99,
+                    "description": "",
+                    "altDescription": "",
+                    "altPrice": 12.99,
+                    "tags": "sandwich, sub, chicken, cheese"
+                }
+            },
+            {
+                "chickenCaesarWrap": {
+                    "name": "Chicken Caesar Wrap",
+                    "price": 10.49,
+                    "description": "",
+                    "altDescription": "",
+                    "altPrice": "",
+                    "tags": "wrap, chicken"
+                }
+            },
+            {
+                "chickenBaconRanchWrap": {
+                    "name": "Chicken Bacon Ranch Wrap",
+                    "price": 10.49,
+                    "description": "",
+                    "altDescription": "",
+                    "altPrice": "",
+                    "tags": "wrap, chicken, bacon"
+                }
+            },
+            {
+                "templateKey": {
+                    "name": "",
+                    "price": "",
+                    "description": "",
+                    "altDescription": "",
+                    "altPrice": "",
+                    "tags": ""
+                }
+            },
+            {
+                "templateKey": {
+                    "name": "",
+                    "price": "",
+                    "description": "",
+                    "altDescription": "",
+                    "altPrice": "",
+                    "tags": ""
+                }
+            },
+            {
+                "templateKey": {
+                    "name": "",
+                    "price": "",
+                    "description": "",
+                    "altDescription": "",
+                    "altPrice": "",
+                    "tags": ""
+                }
+            },
+        ]
     }
+
 
 }

@@ -13,7 +13,7 @@
                 }
             },
             {
-                "egg1x_toast": {
+                "egg1xAndToast": {
                     "name": "1 Egg any style w/ Toast",
                     "price": 5.95,
                     "description": "",
@@ -23,7 +23,7 @@
                 }
             },
             {
-                "egg2x_toast": {
+                "egg2xAndToast": {
                     "name": "2 Eggs any style w/ Toast",
                     "price": 6.95,
                     "description": "",
@@ -483,6 +483,221 @@
                 }
             },
             {
+                "chickenCutletSub": {
+                    "name": "Chicken Cutlet Sub",
+                    "price": 10.75,
+                    "description": "",
+                    "altDescription": "",
+                    "altPrice": 12.99,
+                    "tags": "sub, sandwich, chicken"
+                }
+            }
+        ]
+    },
+    "drinks": {
+        "sectionDescription": "",
+        "array": [
+            {
+                "hotCoffee": {
+                    "name": "Hot Coffee",
+                    "price": 2.99,
+                    "description": "",
+                    "altDescription": "",
+                    "altPrice": 3.99,
+                    "tags": "coffee"
+                }
+            },
+            {
+                "icedCoffee": {
+                    "name": "Iced Coffee",
+                    "price": 2.99,
+                    "description": "",
+                    "altDescription": "",
+                    "altPrice": "",
+                    "tags": "coffee"
+                }
+            },
+            {
+                "tea": {
+                    "name": "Tea",
+                    "price": 1.99,
+                    "description": "",
+                    "altDescription": "",
+                    "altPrice": "",
+                    "tags": "tea"
+                }
+            }
+        ]
+    },
+    "lunchSides": {
+        "sectionDescription": "",
+        "array": [
+            {
+                "frenchFries": {
+                    "name": "French Fries",
+                    "price": 5.49,
+                    "description": "",
+                    "altDescription": "",
+                    "altPrice": 8.00,
+                    "tags": "fries, side"
+                }
+            },
+            {
+                "onionRings": {
+                    "name": "Onion Rings",
+                    "price": 4.99,
+                    "description": "",
+                    "altDescription": "",
+                    "altPrice": "",
+                    "tags": "side"
+                }
+            },
+            {
+                "mozzarellaSticks": {
+                    "name": "Mozzarella Sticks",
+                    "price": 3.99,
+                    "description": "4 sticks",
+                    "altDescription": "8 sticks",
+                    "altPrice": 6.99,
+                    "tags": "cheese, side"
+                }
+            },
+            {
+                "loadedFries": {
+                    "name": "Loaded Fries",
+                    "price": 8.99,
+                    "description": "",
+                    "altDescription": "",
+                    "altPrice": "",
+                    "tags": "fries, cheese, bacon"
+                }
+            },
+            {
+                "jumboHotDog": {
+                    "name": "Jumbo Hot Dog",
+                    "price": 5.99,
+                    "description": "",
+                    "altDescription": "",
+                    "altPrice": "",
+                    "tags": "side"
+                }
+            },
+            {
+                "chickenTenders5x": {
+                    "name": "5 Piece Chicken Tenders",
+                    "price": 8.49,
+                    "description": "",
+                    "altDescription": "",
+                    "altPrice": "",
+                    "tags": "chicken, side"
+                }
+            },
+            {
+                "chickenTenders10x": {
+                    "name": "10 Piece Chicken Tenders",
+                    "price": 10.49,
+                    "description": "",
+                    "altDescription": "",
+                    "altPrice": "",
+                    "tags": "chicken, side"
+                }
+            },
+            {
+                "chickenWings5x": {
+                    "name": "5 Chicken Wings",
+                    "price": 7.99,
+                    "description": "",
+                    "altDescription": "",
+                    "altPrice": "",
+                    "tags": "chicken, side"
+                }
+            },
+            {
+                "chickenWings10x": {
+                    "name": "10 Chicken Wings",
+                    "price": 10.99,
+                    "description": "",
+                    "altDescription": "",
+                    "altPrice": "",
+                    "tags": "chicken, side"
+                }
+            }
+        ]
+    },
+    "combos": {
+        "sectionDescription": "All combo meals are served with french fries and onion rings",
+        "array": [
+            {
+                "chickenTenderCombo": {
+                    "name": "Chicken Tender Combo",
+                    "price": 13.99,
+                    "description": "5 juicy chicken tenders",
+                    "altDescription": "",
+                    "altPrice": "",
+                    "tags": "chicken, combo"
+                }
+            },
+            {
+                "templateKey": {
+                    "name": "",
+                    "price": "",
+                    "description": "",
+                    "altDescription": "",
+                    "altPrice": "",
+                    "tags": ""
+                }
+            },
+            {
+                "templateKey": {
+                    "name": "",
+                    "price": "",
+                    "description": "",
+                    "altDescription": "",
+                    "altPrice": "",
+                    "tags": ""
+                }
+            },
+            {
+                "templateKey": {
+                    "name": "",
+                    "price": "",
+                    "description": "",
+                    "altDescription": "",
+                    "altPrice": "",
+                    "tags": ""
+                }
+            },
+            {
+                "templateKey": {
+                    "name": "",
+                    "price": "",
+                    "description": "",
+                    "altDescription": "",
+                    "altPrice": "",
+                    "tags": ""
+                }
+            },
+            {
+                "templateKey": {
+                    "name": "",
+                    "price": "",
+                    "description": "",
+                    "altDescription": "",
+                    "altPrice": "",
+                    "tags": ""
+                }
+            },
+            {
+                "templateKey": {
+                    "name": "",
+                    "price": "",
+                    "description": "",
+                    "altDescription": "",
+                    "altPrice": "",
+                    "tags": ""
+                }
+            },
+            {
                 "templateKey": {
                     "name": "",
                     "price": "",
@@ -513,6 +728,15 @@
                 }
             },
         ]
+    },
+    "Burgers": {
+
+    },
+    "pizzaAndCalzones": {
+
+    },
+    "deserts": {
+
     }
 
 

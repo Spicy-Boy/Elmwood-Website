@@ -500,30 +500,33 @@
             {
                 "hotCoffee": {
                     "name": "Hot Coffee",
-                    "price": 2.99,
+                    "price": 2.00,
                     "description": "",
                     "altDescription": "",
-                    "altPrice": 3.99,
+                    "mediumPrice": 2.50,
+                    "large": 3.50,
                     "tags": "coffee"
                 }
             },
             {
-                "icedCoffee": {
-                    "name": "Iced Coffee",
-                    "price": 2.99,
+                "iceCoffee": {
+                    "name": "Ice Coffee",
+                    "price": 3.00,
                     "description": "",
                     "altDescription": "",
-                    "altPrice": "",
+                    "mediumPrice": "",
+                    "large": 4.00,
                     "tags": "coffee"
                 }
             },
             {
                 "tea": {
                     "name": "Tea",
-                    "price": 1.99,
-                    "description": "",
+                    "price": 2.00,
+                    "description": "Hot or iced",
                     "altDescription": "",
-                    "altPrice": "",
+                    "mediumPrice": "",
+                    "largePrice": 3.50,
                     "tags": "tea"
                 }
             }

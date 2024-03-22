@@ -148,7 +148,12 @@ footer p {
     text-align: center;
 }
 
-/* ~ ! ~ MENU CSS ~ ! ~ ! ~ */
+
+
+/* $ * $ * $ * $ * $ * $ */
+
+@media (min-width: 1000px) {
+    /* ~ ! ~ MENU CSS ~ ! ~ ! ~ */
 
 .menu-header {
     display: flex;
@@ -161,14 +166,13 @@ footer p {
     display: flex;
 }
 
+/*dynamically generated sections vvv*/
 .menu-section {
     display: flex;
     flex-direction: column;
 
     background-color: rgb(39, 39, 39);
     flex-basis: 30%;
-
-    padding-left: 5px;
 }
 .menu-section-header {
     color: white;
@@ -176,22 +180,33 @@ footer p {
     margin-top: 5px;
 }
 
+/*dynamically generated individual item entries vvv*/
+/* see menu.JSON for the DATA SET
+name, price, description
+altdescription, altprice, tags
+*/
 .menu-entry {
     background-color: red; /*testing purposes*/
 
     margin-bottom: 5px;
 }
+
+.menu-entry p, h3, h4{
+    padding: 0;
+    margin: 0;
+}
+.menu-entry h3{
+
+}
+
 .title-with-price-wrapper {
-    background-color: blue; /*testing purposes*/
-    display: flex;
+
 }
 .menu-item-name {
-    margin-right: auto;
-    flex-basis: 74%;
+
 }
 .price {
-    margin-left: auto;
-    flex-basis: 24%;
+
 }
 
 .menu-flex-row-75-25 {
@@ -203,18 +218,9 @@ footer p {
     margin-right: auto;
     flex-basis: 74%;
 }
-.menu-flex-row-first p{
-    margin: 0;
-    padding: 0;
-}
 /* used for price and alt price vvv */
 .menu-flex-row-second {
     margin-left: auto;
     flex-basis: 24%;
 }
-
-/* $ * $ * $ * $ * $ * $ */
-
-@media (min-width: 1200px) {
-    
 }

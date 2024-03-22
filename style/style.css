@@ -3,7 +3,8 @@
 
 /* DEBUG Borders */
 
-body {
+/* body  */
+.main-background{
     background-image: url("../images/brick-tiles.jpg");
 }
 
@@ -146,6 +147,73 @@ footer p {
     background-color: rgba(0, 0, 0, 0.76);
     text-align: center;
 }
+
+/* ~ ! ~ MENU CSS ~ ! ~ ! ~ */
+
+.menu-header {
+    display: flex;
+    justify-content: center;
+}
+
+.menu-wrapper {
+    background-color: rgb(0, 0, 0);
+
+    display: flex;
+}
+
+.menu-section {
+    display: flex;
+    flex-direction: column;
+
+    background-color: rgb(39, 39, 39);
+    flex-basis: 30%;
+
+    padding-left: 5px;
+}
+.menu-section-header {
+    color: white;
+    margin: 0;
+    margin-top: 5px;
+}
+
+.menu-entry {
+    background-color: red; /*testing purposes*/
+
+    margin-bottom: 5px;
+}
+.title-with-price-wrapper {
+    background-color: blue; /*testing purposes*/
+    display: flex;
+}
+.menu-item-name {
+    margin-right: auto;
+    flex-basis: 74%;
+}
+.price {
+    margin-left: auto;
+    flex-basis: 24%;
+}
+
+.menu-flex-row-75-25 {
+    background-color: blue; /*testing purposes*/
+    display: flex;
+}
+/* used for menu-item title and alt-description */
+.menu-flex-row-first {
+    margin-right: auto;
+    flex-basis: 74%;
+}
+.menu-flex-row-first p{
+    margin: 0;
+    padding: 0;
+}
+/* used for price and alt price vvv */
+.menu-flex-row-second {
+    margin-left: auto;
+    flex-basis: 24%;
+}
+
+/* $ * $ * $ * $ * $ * $ */
 
 @media (min-width: 1200px) {
     

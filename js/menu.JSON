@@ -1,6 +1,7 @@
 {
     "breakfast": {
-        "sectionDescription": "",
+        "sectionTitle": "Breakfast",
+        "sectionDescription": "Served all day",
         "array": [
             {
                 "templateKey": {
@@ -729,7 +730,7 @@
                     "altPrice": "",
                     "tags": ""
                 }
-            },
+            }
         ]
     },
     "Burgers": {

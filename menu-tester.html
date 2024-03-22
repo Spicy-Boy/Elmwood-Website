@@ -5,32 +5,62 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Menu Tester</title>
 
-    <style>
-        body {
-            background-color: rgb(209, 176, 94);
-        }
-        h1 {
-            text-align: center;
-        }
-    </style>
+    <link rel="stylesheet" href="style/style.css">
+
 </head>
 <body>
-    <h1>hello!</h1>
+    <header class="menu-header">
+        <h1>Elmwood Menu</h1>
+    </header>
 
-    <script src="js/menu.js"></script>
+    <div class="menu-wrapper">
+
+        <section class="menu-section">
+
+            <h1 class="menu-section-header">
+                Breakfast
+            </h1>
+            
+            <h2 class="menu-section-description">
+                Served all day
+            </h2>
+
+            <div class="menu-entry">
+            
+                <div class="title-with-price-wrapper">
+                    <h3 class="menu-item-name">Our Famous Breakfast Sandwich</h3>
+                    <h4 class="price">$5.85</h4>
+                </div>
+
+                <p>1 egg any style on your choice of bread, bagel, english muffin, or bulkie roll with cheese. Don't forget the meat: bacon, ham, or sausage</p>
+
+                <div class="menu-flex-row-75-25">
+                    <p class="menu-flex-row-first">Make it meatless</p>
+                    <h4 class="menu-flex-row-second alt-price">$4.45</h4>
+                </div>
+
+            </div>
+
+        </section>
+
+        
+
+    </div>
+
+    <!-- <script src="js/menu.js"></script> -->
     <script>
         // let breakfast = arrayBreakfast;
         // console.log(breakfast);
 
-        for (const key in arrayBreakfast) {
-            const breakfastItem = arrayBreakfast[key];
+        // for (const key in arrayBreakfast) {
+        //     const breakfastItem = arrayBreakfast[key];
 
-            console.log("Name:", breakfastItem.name);
-            console.log("Price:", breakfastItem.price);
-            console.log("Description:", breakfastItem.description);
-            console.log("Tags:", breakfastItem.tags);
-            console.log("-------------------");
-        }
+        //     console.log("Name:", breakfastItem.name);
+        //     console.log("Price:", breakfastItem.price);
+        //     console.log("Description:", breakfastItem.description);
+        //     console.log("Tags:", breakfastItem.tags);
+        //     console.log("-------------------");
+        // }
     </script>
 </body>
 </html>

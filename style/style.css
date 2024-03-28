@@ -195,7 +195,7 @@ altdescription, altprice, tags
     padding: 0;
     margin: 0;
 }
-.menu-entry h3{
+/* .menu-entry h3{
 
 }
 
@@ -207,7 +207,7 @@ altdescription, altprice, tags
 }
 .price {
 
-}
+} */
 
 .menu-flex-row-75-25 {
     background-color: blue; /*testing purposes*/

@@ -733,8 +733,8 @@
             }
         ]
     },
-    "Burgers": {
-
+    "burgers": {
+        "test": 34
     },
     "pizzaAndCalzones": {
 

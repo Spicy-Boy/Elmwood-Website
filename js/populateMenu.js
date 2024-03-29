@@ -34,17 +34,19 @@ fetch("js/menu.JSON")
                 newSection.appendChild(h2);
             }
 
-            let divEntry = document.createElement('div');
-            divEntry.classList.add("menu-entry");
-            newSection.appendChild(divEntry);
-
-            let titleDiv = document.createElement('div');
-            titleDiv.classList.add("menu-flex-row-75-25");
-            // titleDiv.classList.add("title-with-price-wrapper"); //not implemented yet
-
             for(item of menuSection.array)
             {
+                let divEntry = document.createElement('div');
+                divEntry.classList.add("menu-entry");
 
+
+                let titleDiv = document.createElement('div');
+                titleDiv.classList.add("menu-flex-row-75-25");
+                // titleDiv.classList.add("title-with-price-wrapper"); //not implemented yet
+                divEntry.appendChild("titleDiv");
+
+
+                newSection.appendChild(divEntry);
             }
 
         }
